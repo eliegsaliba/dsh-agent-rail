@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-agent-rail
+      name: dsh-agent-rail
+      config: {}
