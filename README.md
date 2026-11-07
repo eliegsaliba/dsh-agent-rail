@@ -1,22 +1,14 @@
 # dsh-agent-rail
 
+English | [中文](README.zh.md)
+
 A folder-free left sidebar for [DeepSeek Harness](https://github.com/deepseek-ai). One row per live agent: provider mark, title, working directory, and the work it currently has in flight. Nothing is nested, nothing needs filing.
 
 It replaces the native `sidebar.workspaces` region. There is an escape hatch back if you dislike it.
 
-```
-AGENTS                          1 needs you
-┌──────────────────────────────────────────┐
-│ ▟  Fix the sidebar close bug      ×      │   ← focused: brand bar, raised fill
-│    ~/Documents/harness     ↳ 2           │      (2 subagents running)
-│ ▟  Read the herdr protocol       ×      │
-│    ~/tawseeq/herdr         ⚙ 1           │      (1 background job)
-│ ▟  Draft the launch post         ×      │
-│    ~/writing                             │
-└──────────────────────────────────────────┘
-  ● Chime          ● Desktop alerts   Classic sidebar
-  ▸ Previous 12
-```
+![The agent rail: five agents with provider marks, status dots, work in flight, a focused row, and the collapsed rail beside it](docs/rail.svg)
+
+*Illustration of the states, not a screenshot: focused row with a brand bar, orange "working", red "needs you", green "finished", white "idle".*
 
 ## Why
 

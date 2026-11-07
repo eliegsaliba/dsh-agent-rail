@@ -4,6 +4,14 @@
   "description": "A folder-free left sidebar for DSH: live agents with provider mark, status, directory and work in flight.",
   "license": "MIT",
   "author": "Elie Saliba",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliegsaliba/dsh-agent-rail.git"
+  },
+  "homepage": "https://github.com/eliegsaliba/dsh-agent-rail#readme",
+  "bugs": {
+    "url": "https://github.com/eliegsaliba/dsh-agent-rail/issues"
+  },
   "type": "module",
   "engines": {
     "node": ">=20"
@@ -28,7 +36,9 @@
     "locale/*.json",
     "icon.svg",
     "README.md",
-    "LICENSE"
+    "README.zh.md",
+    "LICENSE",
+    "docs/rail.svg"
   ],
   "scripts": {
     "check": "node scripts/check.mjs"
